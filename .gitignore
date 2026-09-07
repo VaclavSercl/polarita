@@ -1,0 +1,14 @@
+# Secrets
+.secrets/
+credentials*.txt
+google_token.json
+google_oauth_client.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Temp
+*.tmp
+email_state.json
+csn_state.txt
