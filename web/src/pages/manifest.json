@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1425,
+    "slug": "pro-koho",
+    "url": "https://www.polarita.cz/pro-koho/",
+    "title": "Pro koho",
+    "file": "pro-koho.html"
+  },
+  {
+    "id": 1422,
+    "slug": "revize-fve",
+    "url": "https://www.polarita.cz/revize-fve/",
+    "title": "Revize FVE",
+    "file": "revize-fve.html"
+  },
+  {
+    "id": 1419,
+    "slug": "revize-nabijecich-stanic",
+    "url": "https://www.polarita.cz/revize-nabijecich-stanic/",
+    "title": "Revize nabíjecích stanic",
+    "file": "revize-nabijecich-stanic.html"
+  },
+  {
+    "id": 1416,
+    "slug": "revize-elektrickych-spotrebicu",
+    "url": "https://www.polarita.cz/revize-elektrickych-spotrebicu/",
+    "title": "Revize elektrických spotřebičů",
+    "file": "revize-elektrickych-spotrebicu.html"
+  },
+  {
+    "id": 1413,
+    "slug": "revize-hromosvodu",
+    "url": "https://www.polarita.cz/revize-hromosvodu/",
+    "title": "Revize hromosvodů",
+    "file": "revize-hromosvodu.html"
+  },
+  {
+    "id": 1410,
+    "slug": "revize-elektroinstalaci",
+    "url": "https://www.polarita.cz/revize-elektroinstalaci/",
+    "title": "Revize elektroinstalací",
+    "file": "revize-elektroinstalaci.html"
+  },
+  {
+    "id": 1386,
+    "slug": "wallboxy",
+    "url": "https://www.polarita.cz/wallboxy/",
+    "title": "Wallboxy a nabíjení",
+    "file": "wallboxy.html"
+  },
+  {
+    "id": 1385,
+    "slug": "elektroinstalace",
+    "url": "https://www.polarita.cz/elektroinstalace/",
+    "title": "Elektroinstalace",
+    "file": "elektroinstalace.html"
+  },
+  {
+    "id": 539,
+    "slug": "polarita",
+    "url": "https://www.polarita.cz/",
+    "title": "Polarita",
+    "file": "polarita.html"
+  },
+  {
+    "id": 18,
+    "slug": "kontakt",
+    "url": "https://www.polarita.cz/kontakt/",
+    "title": "Kontakt",
+    "file": "kontakt.html"
+  }
+]

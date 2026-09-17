@@ -32,5 +32,7 @@ hermes/scripts/      # Skripty pro Hermes cron joby
 
 ## Web
 
-- **polarita.cz** — WordPress (elektroinstalace, wallboxy)
+- **polarita.cz** — WordPress (revize elektro po celé ČR, elektroinstalace, wallboxy)
 - **polarita.eu** — Shoptet eshop
+
+Verzované stránky, zálohy, kontrola odkazů a postup nasazení: [web/README.md](web/README.md).
