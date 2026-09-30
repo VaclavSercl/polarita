@@ -1,5 +1,16 @@
 # Čitelnější logo Polarita.eu — 2026-09-29
 
+## Nová nabídka školení a zkoušek — 2026-09-30
+Goal: analyzovat majitelem dodaný odkaz a doplnit přesně vymezenou nabídku na Polarita.cz. Non-goals: instalace harnessu, změna infrastruktury, změny jiných sekcí a e-shopu, push/PR. Výchozí HEAD eea57a79aeda2aeb5836bc054abf6a8b1b14890d, čistý pracovní strom; Windows/PowerShell, přihlášený WordPress. Vlastněný rozsah: tento plán, nový obsah školení, jeho odborný report a případně úzké doplnění aktuální homepage. Neobnovovat staré zdrojové HTML přes novější živý obsah.
+
+Discovery: sdílenou konverzaci nelze načíst přes odkaz; majitel následně vložil její celé vysvětlení. Uvedl externí školení firem a živnostníků v rozsahu E2A pro § 4/6/7. NV 194/2022 Sb. v e-Sbírce zobrazuje aktuální znění od 1. 7. 2024. Ověřeny § 4, 6–9 a § 19 zákona 250/2021 Sb.: komise pro § 6/7, zkoušky, dokumentace, vstupní předpoklady i předmět podnikání externího pořadatele. Číslo a platnost dokladů, předmět podnikání a zajištění dalších členů komise zatím nejsou doloženy. Web proto výslovně označí připravovanou službu a nezávazné poptávky; konkrétní provedení až po ověření podmínek. Nezveřejní tvrzení o hotové komisi či doloženém oprávnění školitele.
+
+File checklist: PLAN.md; web/src/pages/skoleni-a-zkousky-elektro.html; docs/web/SKOLENI_2026-09-30.md; aktuální web/src/pages/polarita.html a nový záznam manifestu; web/check_training_update.py pro nezávislé úzké veřejné ověření. Obnova: přesná lokální kopie aktuálního HTML editoru v ignored .artifacts a WordPress revize; návrat pouze vlastní změny. Před publikací ověřit shodu zálohy s editorem. Rizika: záměna s osvědčením TIČR nebo profesní kvalifikací, nedoložená komise, neaktuální zdroj v Git, kolize jiných editorů.
+
+Outcome: publikována stránka WP 1462 a úzké propojení homepage WP 539. Nabídka je výslovně připravovaná, skutečné provedení podmíněno ověřením podkladů a komise. Veřejný check exit 0 (11 komerčních URL), FAQ a volba formuláře ověřeny, mobil 320/390 px bez přetečení. Limity: neověřené doručení emailu, chybějící samostatné SEO popisy nové stránky a skrytý H1 šablony; provozní doklady pořadatele čekají na majitele. Lokální kontrola / commit, bez push/PR. Viz výsledný report.
+
+Acceptance: pravdivý rozsah potvrzen majitelem, nezměněná hlavní nabídka revizí a e-shop, funkční poptávka a kontakt, jediný H1, správný odkaz a mobilní čitelnost; žádné vymyšlené ceny, termíny či oprávnění. Exact verification: `git diff --check`; kontrola konkrétních nových URL přes veřejné HTTP a prohlížeč, H1/CTA/formulář, šířky 320/390px; nepoužívat zastaralé web/check_site.py jako doklad úspěchu. Bez skutečného nasazení reportovat připraveno, nikoli hotovo. Lokální commit jen vlastněných souborů; vzdálené zápisy neautorizovány.
+
 ## Cíl a rozsah
 Zvětšit stávající logo pouze v hlavičce Shoptetu a zachovat funkčnost mobilního menu, hledání a košíku. Jde o úzkou úpravu vzhledu na pokyn majitele, nikoli instalaci SynthBit harnessu nebo změnu WordPressu. Bez změn oprávnění doplňků, produktů a ostatního obsahu.
 

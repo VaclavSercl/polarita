@@ -68,5 +68,12 @@
     "url": "https://www.polarita.cz/kontakt/",
     "title": "Kontakt",
     "file": "kontakt.html"
+  },
+  {
+    "id": 1462,
+    "slug": "skoleni-a-zkousky-elektro",
+    "url": "https://www.polarita.cz/skoleni-a-zkousky-elektro/",
+    "title": "Školení a zkoušky elektro",
+    "file": "skoleni-a-zkousky-elektro.html"
   }
 ]
