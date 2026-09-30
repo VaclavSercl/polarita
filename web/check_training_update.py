@@ -72,10 +72,13 @@ def main():
             assert any("Školení a zkoušky elektro" in x for x in page.options)
             assert page.required == 5, page.required
             assert "/" + SERVICE in page.links
+            assert "Domluvte školení pro svůj tým nebo přezkoušení pro sebe." in text
         else:
-            assert "Přijímáme nezávazné poptávky připravované služby." in text
-            assert "tříčlenné komise" in text
+            assert "Školení a přezkoušení pro firmy a živnostníky." in text
+            assert "před tříčlennou komisí" in text
             assert "/#poptavka" in page.links
+        assert "připravované služby" not in text
+        assert "Připravovaná nabídka" not in text
         for link in page.links:
             absolute = urlsplit(urljoin(BASE, link))
             if absolute.scheme != "https" or absolute.netloc != "www.polarita.cz":
