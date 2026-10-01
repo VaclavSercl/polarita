@@ -17,6 +17,7 @@ class Layout(HTMLParser):
         self.inspection_cards = 0
         self.h1 = 0
         self.nested_training = False
+        self.nested_installation = False
 
     def handle_starttag(self, tag, attrs):
         data = dict(attrs)
@@ -25,6 +26,8 @@ class Layout(HTMLParser):
             self.sections.append(data["id"])
         if data.get("id") == "skoleni" and "revize" in current:
             self.nested_training = True
+        if data.get("id") == "elektroinstalace" and ("revize" in current or "skoleni" in current):
+            self.nested_installation = True
         if tag == "h1":
             self.h1 += 1
         if tag == "h2" and "skoleni" in current:
@@ -53,6 +56,8 @@ def check(text):
     page.feed(text)
     assert page.sections.count("skoleni") == 1, "Missing or duplicate independent training section"
     assert not page.nested_training, "Training nested in inspection section"
+    assert page.sections.count("elektroinstalace") == 1, "Installation needs one independent section"
+    assert not page.nested_installation, "Installation nested in another activity"
     assert page.sections.index("skoleni") < page.sections.index("revize"), "Training is buried after inspections"
     assert TRAINING not in page.links["revize"], "Training is still classified as an inspection"
     assert page.inspection_cards == 6, page.inspection_cards
@@ -69,11 +74,13 @@ def self_test():
     good = ('<section class="pk-hero"><h1>Services</h1><a href="#skoleni">Training</a>'
             '<a href="#poptavka">Inspection</a></section><section id="skoleni"><h2>Training</h2>'
             f'<a href="{TRAINING}">Details</a><a href="tel:+420792779534">Call</a></section>'
-            f'<section id="revize">{cards}</section>')
+            f'<section id="revize">{cards}</section><section id="elektroinstalace"></section>')
     check(good)
     bad = [good.replace('<section id="revize">', f'<section id="revize"><a href="{TRAINING}">Training</a>'),
            good.replace('id="skoleni"', 'id="other"'),
-           good.replace('href="#skoleni"', 'href="#other"')]
+           good.replace('href="#skoleni"', 'href="#other"'),
+           good.replace('<section id="elektroinstalace"></section>', ''),
+           good.replace('<section id="elektroinstalace"></section>', '').replace('<section id="revize">', '<section id="revize"><section id="elektroinstalace"></section>')]
     for fixture in bad:
         try:
             check(fixture)
