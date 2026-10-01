@@ -1,4 +1,6 @@
-# Obsah pro Polaritu — připraveno, nezveřejněno
+# Obsah pro Polaritu — stav publikace 1. 10. 2026
+
+Po výslovném pokynu majitele zveřejněny: Facebook revize a samostatné školení, X a LinkedIn. Google aktualita čeká na ověření firemního profilu; YouTube zůstává scénářem bez natočeného videa. Níže uchované texty jsou původní podklady, nikoli důkaz publikace všech kanálů. Ověřené výsledky a odkazy: [report publikace](../web/PUBLICATION-2026-10-01.md).
 
 Věcný český styl podle zadání majitele. Bez smyšlených cen, termínů, reference či tvrzení o garantované odpovědi. Před zveřejněním zkontrolovat odkazy a případný souhlas se snímkem.
 
@@ -56,4 +58,4 @@ Majitel doplní: typ zákazníka a objektu; město/kraj; skutečný problém; pr
 4. Wallbox: výběr vybavení, montáž a revize podle objektu.
 5. První skutečná schválená realizace.
 
-Publikaci a konkrétní termíny schválí majitel; dokument není odeslaný příspěvek ani automatický plánovač.
+Další publikaci a konkrétní termíny schválí majitel; tento dokument není automatický plánovač. Výše uvedené čtyři příspěvky byly zveřejněny po jeho výslovném schválení 1. 10. 2026.
