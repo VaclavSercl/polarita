@@ -1,5 +1,19 @@
 # Čitelnější logo Polarita.eu — 2026-09-29
 
+## Oddělení hlavních činností na homepage 1. 10. 2026
+
+Goal: školení a přezkoušení je samostatná hlavní činnost. Vyjmout kartu z revizí, vytvořit vlastní hlavní sekci, uvést ji v hero a přehledu činností. Zachovat revize jako hlavní nabídku a e-shop jako důležitou cestu. Non-goals: ostatní stránky a oddělené sekce, právní rozšíření nabídky, instalace nových pluginů, změny formuláře/příjemce, rozesílání, push/PR, SynthBit.
+
+Baseline 0b14103cb8c426e37d70efed072179d82682e8de, čistý index/worktree. Windows/Python, přihlášený WordPress539. Plugin-management prověřen; Sites list neobsahuje připojený web, neprovádět migraci. Existující komerční WordPress plugin nadále poskytuje šablonu. Vlastněný rozsah: PLAN.md, web/src/pages/polarita.html, web/check_home_service_layout.py a docs/skoleni/07-homepage.md. Kontrolní skript ověřuje skutečnou strukturu i původní chybné zařazení jako negativní fixture; existující kontroly neměnit/oslabovat.
+
+Impact: hero CTA a přehled hlavních činností, samostatná sekce #skoleni před #revize, šest čistě revizních karet. Bez nových tvrzení o kvalifikaci/ceně/termínu. Před změnou přesná shoda zdroje a editoru a ignored záloha. Souběžnou změnu nepřepsat. Oponent AGY read-only vyžádán majitelem.
+
+Acceptance: žádný školící odkaz ani karta uvnitř #revize; samostatný #skoleni se svým H2, účelem §4/6/7, CTA a telefonem; hero zvýrazňuje obě činnosti. Jeden H1, funkční navigace/kontakt/formulář/e-shop; desktop a 320/390px bez přetečení. Commands: python web/check_home_service_layout.py; python web/check_training_update.py; python -m py_compile web/check_home_service_layout.py; git diff --check; git diff --cached --check. Žádný skutečný formulářový submit.
+
+Recovery: .artifacts/skoleni-20261001/home-layout-before.html obsahuje přesný zdroj. Případný návrat pouze vlastní změny po kontrole mezitímních editací. Nejvýše tři cílené opravy s důkazy; lokální commit po ověření, bez vzdálených zápisů. Kompletní platformový audit se netvrdí.
+
+Outcome: homepage539 má samostatné hlavní školení před revizemi, hero pro obě činnosti a šest čistě revizních karet. Po vizuální kontrole doplněna mobilní pevná cesta k přezkoušení a opraveno její zalomení při320px; všechny tři cíle44px a bez přetečení. §4poučení odlišeno od §6/7zkoušek, E2A vysvětleno podle existujícího detailu; připomínky AGY zapracovány. Veřejný strukturálnícheckPASS (před nasazením baselineFAIL), původnícheck11URLPASS, desktop1280/320/390 vizuálně ověřeny, viewportreset. Záloha a screenshotyignored, formulář neodeslán. Report07-homepage.md. Lokální commit po závěrečných kontrolách, bez push/PR.
+
 ## Upřesnění pořadatele a platnosti 1. 10. 2026
 
 Goal: pokračování webu a školení výslovně potvrzené majitelem; sjednotit aktuální podklady a doplnit veřejně pořadatele Polarita s.r.o. Non-goals: instalace SynthBit, další služby, změny pluginů, rozesílání, skutečný kurz, veřejné osobní skeny a remote Git zápisy.
