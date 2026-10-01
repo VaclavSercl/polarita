@@ -4,7 +4,7 @@ Redesign zveřejněný 17. 9. 2026. Hlavní nabídka: revize elektroinstalací, 
 
 ## Soubory a obnova
 
-- `src/pages/`: aktuální obsah deseti obchodních stránek; `manifest.json` mapuje soubory na WordPress ID a URL.
+- `src/pages/`: aktuální obsah jedenácti obchodních stránek; `manifest.json` mapuje soubory na WordPress ID a URL.
 - `backups/before-redesign/`: veřejné obsahové snímky původních čtyř existujících obchodních stránek před tímto redesignem. Již zahrnují předchozí úpravy nabídky a formuláře; nejde o původní web před celou spoluprací.
 - `snapshot.py`: čte veřejné REST API bez přihlašování. Z vykresleného obsahu odstraní formulářové tokeny a nahradí formulář autorským Jetpack shortcode. HTML je normalizované, nejde o úplnou zálohu databáze ani přesný export struktury původních bloků.
 - `check_site.py`: kontroluje živé stránky, odkazy, kotvy, formulář a izolaci dovolených. Nic neodesílá.
@@ -32,7 +32,7 @@ Kompaktní horní navigace, vlastní logo, námořnická modrá a petrolejová p
 
 Společné CSS je vložené v každé obchodní stránce, aby změny nezasahovaly dovolené. Selektor `body:has(.polarita-business)` upravuje rozvržení šablony Twenty Fifteen pouze na těchto stránkách. Vyžaduje současný prohlížeč s podporou `:has()`. Při větším rozvoji je vhodné přesunout sdílený design do samostatné WordPress šablony; aktuální řešení zachovává ostatní obsah webu.
 
-Formulář používá stávající Jetpack: pět povinných údajů, telefon a termín volitelné. Příjemce `vaclav.sercl@polarita.cz`. Test z předchozího kroku byl zaznamenán ve WordPress Forms a ukázal úspěšné odeslání; skutečné doručení e-mailu do schránky nebylo ověřeno. Přesun do nového vzhledu zachovává shortcode.
+Formulář používá stávající Jetpack: pět povinných údajů, telefon a termín volitelné. Příjemce `vaclav.sercl@polarita.cz`. Test při redesignu 17. 9. byl zaznamenán ve WordPress Forms; tehdy nebylo doručení e-mailu ověřeno. Nový samostatně schválený test 1. 10. byl doručen do připojené schránky a majitel jej potvrdil; podrobnosti uvádí nový SEO report. Přesun do nového vzhledu zachovává shortcode.
 
 Faktické údaje od uživatele: celá ČR a označení „revizní technik elektro“. Neuvádíme vymyšlená čísla oprávnění, reference, počty zakázek, pevné termíny ani ceny. Fotografie technika a ověřitelné realizace čekají na dodání. Revizní intervaly se bez znalosti zařízení a podmínek neuvádějí paušálně.
 
@@ -50,3 +50,11 @@ Faktické údaje od uživatele: celá ČR a označení „revizní technik elekt
 Vizuálně ověřen desktop a mobilní šířka 390 px: úvod, produktové karty a poptávka. Fotografie tří produktů se úspěšně načetly. Mobilní úvod nemá vodorovné přetékání. Pět povinných polí a volitelné telefon/termín byly ověřeny ve vykresleném formuláři.
 
 Automatický read-only smoke test viz `check_site.py`. Dostupnost stránek není totéž co uživatelský test, audit přístupnosti či měření konverzí. Tvrzení o „dokonalém“ designu nelze technickým testem doložit.
+
+## SEO a dohledatelnost aktualizované 1. října 2026
+
+Viz `docs/web/SEO-GEO-2026-10-01.md` pro změny, aktuální indexaci, předchozí a nové měření i otevřené kroky. `check_seo.py` používá standardní knihovnu Pythonu a prochází pouze obchodní URL v manifestu; negativní fixtures jsou v `tests/`. Spustit `python web/check_seo.py` a `python -m unittest discover -s web/tests`.
+
+`wp-plugin/polarita-commercial.php` je verzovaný hlavní soubor existujícího pluginu, nikoli celý instalační balíček. Před editací získat přesnou kopii aktuálního serverového souboru, prověřit souběžné změny a zachovat ostatní komponenty. Metadata i odstranění starých stylů mají stránkový allowlist. Existující Jetpack a cookie komponenty zůstávají.
+
+**`snapshot.py` nyní nepoužívat pro obnovu formuláře:** jeho starší rekonstrukce neobsahuje všechny aktuální volby. Obnova přes přesný editorový export nebo WordPress revize; žádný plošný přepis novějšího živého obsahu podle starého exportu.
