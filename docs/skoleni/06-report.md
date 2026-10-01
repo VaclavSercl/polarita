@@ -1,10 +1,10 @@
 # Výsledky přípravy školení dne 1. 10. 2026
 
-Celkový stav INCOMPLETE. Organizační podklady a úzká webová změna jsou připravené a ověřené v uvedeném rozsahu. Skutečný kurz, finální odborný test a ověření pořadatele nejsou dokončené.
+Celkový stav INCOMPLETE. Organizační podklady a úzká webová změna jsou připravené a ověřené v uvedeném rozsahu. Pořadatel je majitelem určen; skutečný kurz, finální odborný test a nezávislé ověření podnikatelského pokrytí externího zkoušení nejsou dokončené.
 
 ## BEFORE
 
-Nová stránka nebyla v allowlistu existujícího komerčního pluginu: bez vlastního meta/OG popisu, s druhým skrytým H1 staré šablony a starším logem. Chyběla ucelená organizační sada. Rozpor platnosti dokladu § 7 přetrvával; majitel nyní uvádí překlep a čtyři roky do 2030, což odporuje § 19 zákona. Předchozí potvrzení podmínek majitelem není nezávislé ověření.
+Nová stránka nebyla v allowlistu existujícího komerčního pluginu: bez vlastního meta/OG popisu, s druhým skrytým H1 staré šablony a starším logem. Chyběla ucelená organizační sada. Původní doklad § 7 obsahoval rozpor v platnosti; zastaralé pracovní texty uváděly čtyři roky do 2030 a nevyjasněného pořadatele. Předchozí potvrzení podmínek majitelem není nezávislé ověření.
 
 ## CHANGES
 
@@ -20,7 +20,7 @@ Jiné komerční služby, hlavní důraz homepage na revize, e-shop, formulářo
 
 ## NEEDS OWNER INPUT
 
-Vydavatel musí vyjasnit datum vydání a opravit platnost § 7; zákon stanovuje 3 roky, ne4. Doložit aktuálního pořadatele a jeho podnikatelský rozsah. ARES/RŽP API proIČ14180324 dne1. 10. 2026 vrací 4 aktivní živnosti a 18 oborů bez oboru školení; záznam má datum aktualizace2022-02-01. Výpis se mohl změnit později, proto výsledek není definitivní závěr o neexistenci oprávnění. Soukromě zajistit identitu/kvalifikaci členů komise, schválit konkrétní odborné testy, aktuální technické zdroje, délku školení a praktický nácvik, zákazníka, termín a cenu pilotu.
+Majitel určil Polaritu jako pořadatele a opravil platnost na tři roky do roku 2029; tyto otázky se znovu nevyžadují. Vydavatel musí potvrdit datum vydání a opravit původní překlep. Při vydání 24. 6. 2026 vychází konec platnosti na 24. 6. 2029. Podnikatelské pokrytí externího zkoušení podle § 19 odst. 4 zůstává nezávisle neuzavřené. Zákon přímo nejmenuje obor č. 72; jeho výslovnou nutnost netvrdit. Dřívější ARES/RŽP výsledek se starým datem aktualizace 2022-02-01 není konečným právním posouzením. Soukromě doložit identitu/kvalifikaci již zajištěných členů komise, schválit konkrétní odborné testy, aktuální technické zdroje, délku školení a praktický nácvik, zákazníka, termín a cenu pilotu.
 
 ## TESTS
 
@@ -35,4 +35,10 @@ Vydavatel musí vyjasnit datum vydání a opravit platnost § 7; zákon stanovuj
 
 Finální odborný test pro skutečné zařízení chybí: organizační otázky nejsou zkušební test. Úřední vzory příloh2/3/4 musí pořadatel převzít a vyplnit pro konkrétní průběh; checklisty je nenahrazují. Kurz ani video nejsou uskutečněné. Žádné emaily, příspěvky ani testovací formulář nebyly odeslány; doručení do schránky zůstává neověřené. Není provedeno úplné posouzení GDPR, cookies před souhlasem, performance ani shody WCAG. WordPress ukazuje7dostupných aktualizací a vypnuté cachování; tato zjištění jsou mimo úzké nasazení, nezměněna.
 
-Oponent AGY hodnotí přípravu PASS_WITH_LIMITATIONS; toto není potvrzení připravenosti pořádat konkrétní kurz. Další krok: získat opravu dokladu/aktuální výpis a s předsedou sestavit skutečný technický test. Doručovací test připraven v05, vyžaduje konkrétní autorizaci odeslání majitelem.
+Oponent AGY hodnotil předchozí přípravu PASS_WITH_LIMITATIONS; toto není potvrzení připravenosti pořádat konkrétní kurz. Další krok: dokončit opravu původního dokladu, vyjasnit pokrytí externího zkoušení současným předmětem podnikání a s předsedou sestavit skutečný technický test. Doručovací test připraven v05, vyžaduje konkrétní autorizaci odeslání majitelem.
+
+## Navazující upřesnění majitele
+
+Podklady byly sjednoceny na pořadatele Polarita s.r.o., IČO 14180324, a tříletou platnost do roku 2029. Jde o potvrzení majitele; přijetí podkladů úřadem ani uskutečněný kurz se tím netvrdí. Objednávkový a protokolový pracovní list i neodeslané návrhy komunikace obsahují stejného pořadatele. Příliš kategorická formulace o oboru č. 72 je nahrazena skutečným požadavkem § 19 odst. 4. Původní PDF zůstala beze změny.
+
+Na stránce školení publikována pouze věta „Pořadatel školení: Polarita s.r.o., IČO 14180324.“ v kontaktní kartě. Před zápisem přesná shoda celého editoru s verzovaným zdrojem a záloha training-organizer-before.html v ignored .artifacts/skoleni-20261001. WordPress potvrdil aktualizaci, veřejná kontaktní karta obsahuje větu a anonymní HTTP kontrola potvrzuje 200 i přesný text. Screenshot training-organizer-after.png zachycuje zveřejněnou kartu. Kontrola při 320 px: žádné horizontální přetečení, karta široká 265 px; po kontrole viewport resetován. Zachycené chyby konzole žádné. python web/check_training_update.py po publikaci: exit 0, 11 komerčních URL. Kontrolní skript se neměnil, formulář nebyl odeslán. AGY úzký diff hodnotil PASS_WITH_LIMITATIONS; obě jeho drobné připomínky k formulaci a primárnímu zdroji zapracovány.

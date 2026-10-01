@@ -20,7 +20,7 @@ Zápis připravit pro skutečné poučení; po neúspěšném ověření nevydá
 
 ## Podklad protokolu podle § 6 nebo § 7
 
-Kurz, místo, datum, pořadatel a IČO: ____________________; účastník identifikovaný podle požadavků přílohy3: ____________________.
+Pořadatel: Polarita s.r.o., IČO 14180324. Kurz, místo a datum: ____________________; účastník identifikovaný podle požadavků přílohy3: ____________________.
 
 Stupeň a technický rozsah: ____________________; kvalifikace a praxe ověřeny: ____________________; verze osnov a testu: ____________________; případná příloha4 a nahrazená část: ____________________.
 

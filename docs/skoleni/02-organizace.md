@@ -20,7 +20,7 @@ Potvrzení podle přílohy4 může za podmínek § 9 odst.6 nahradit pouze urče
 
 ## Souhrn objednávky
 
-Pořadatel: ____________________; zákazník: ____________________; identifikátor kurzu: ____________________.
+Pořadatel: Polarita s.r.o., IČO 14180324; zákazník: ____________________; identifikátor kurzu: ____________________.
 
 Potvrzený stupeň a rozsah, místo, datum a harmonogram: ____________________. Cena a platební podmínky: ____________________. Součinnost zákazníka a podklady: ____________________. Postup při nesplnění vstupních podmínek, neúčasti nebo neúspěchu: ____________________. Příjemce výsledných dokladů a kontaktní osoba: ____________________.
 

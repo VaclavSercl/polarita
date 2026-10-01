@@ -1,5 +1,19 @@
 # Čitelnější logo Polarita.eu — 2026-09-29
 
+## Upřesnění pořadatele a platnosti 1. 10. 2026
+
+Goal: pokračování webu a školení výslovně potvrzené majitelem; sjednotit aktuální podklady a doplnit veřejně pořadatele Polarita s.r.o. Non-goals: instalace SynthBit, další služby, změny pluginů, rozesílání, skutečný kurz, veřejné osobní skeny a remote Git zápisy.
+
+Baseline: 455df133274b4a664e3d759d10b1c64403be4095; čistý index i pracovní strom, Windows/Python, přihlášený editor WP 1462. Vlastnictví změn: tento běh pouze PLAN.md, docs/skoleni/01-overeni.md, 02-organizace.md, 04-zaznamy.md, 05-pilot-a-komunikace.md, 06-report.md, README.md a web/src/pages/skoleni-a-zkousky-elektro.html. Složky bez symlinků ověřit před zápisem. Pravidla dodaná v chatu jsou načtená; immutable souborový manifest jejich původních bajtů ani harness nejsou vytvořené a nejsou zde prohlašované za ověřené.
+
+Impact: vlastník opravil tvrzení na tři roky do 2029 a určil pořadatele Polarita. Neoznačovat obor 72 za výslovnou jedinou zákonnou podmínku; současně nezamlčet požadavek § 19 odst. 4 zákona 250/2021 na předmět podnikání externího pořadatele. Právní pokrytí aktuálního zápisu zatím nezávisle neuzavřeno. Původní dokument nenahrazovat vlastní úpravou.
+
+Acceptance: konzistentní aktuální stav v podkladech, předvyplněný pořadatel v pracovních listech, veřejná věta o pořadateli bez tvrzení o schválení úřadem; zachovat ostatní obsah. Commands: python web/check_training_update.py; git diff --check; git diff --cached --check; kontrola úzkého diffu a AGY read-only oponentura. Žádná instalace závislostí. Kontrolní skript se nemění.
+
+Recovery: uložit přesný současný HTML obsah do ignored .artifacts, ověřit shodu s Git zdrojem před publikací a vracet jen vlastní větu. Souběžná změna blokuje přepis. Nejvýše tři doložené opravné cykly. Doručení formuláře nelze potvrdit bez odeslání; dřívější otázka na autorizaci zůstává nevyřešená, tento běh nic neodesílá. Lokální commit po ověření, žádný push/PR.
+
+Outcome: dokumentace sjednocena na potvrzeného pořadatele a tříletou platnost do2029; požadavek předmětu podnikání zachován bez kategorické povinnosti konkrétního oboru72. Veřejně uložena pouze jedna věta pořadatele, přesná záloha/shoda zdroje před změnou; potvrzení WordPress a anonymní HTTP200 s přesným textem. Screenshot kontaktní karty, 320px bez přetečení; konzole bez zachycených chyb, viewport reset. AGY read-only PASS_WITH_LIMITATIONS, připomínky zapracovány. Kontrolní skript beze změny, po nasazení exit0 pro11komerčníchURL. Finální odborný test, původní opravený doklad, právní pokrytí předmětu podnikání a doručení poptávky se tím nepovažují za uzavřené. Žádný email, sociální příspěvek, push aniPR. Harness neinstalován.
+
 ## Dokončení školení body 1 až 4 dne 1. 10. 2026
 
 Goal: ověřit podmínky nabídky, připravit provozní dokumentaci, bezpečné technické úpravy webu a pilot/komunikaci. Non-goals: jiné sekce, instalace harnessu/závislostí/pluginů, vzdálené Git zápisy, odesílání emailů/příspěvků, smyšlené termíny/ceny, skutečný kurz bez zákazníka.

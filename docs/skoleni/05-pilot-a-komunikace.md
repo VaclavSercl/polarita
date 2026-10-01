@@ -1,6 +1,6 @@
 # Pilotní kurz a připravená komunikace
 
-Pilot dosud nemá potvrzeného zákazníka, termín ani cenu. Níže je postup a obsah k použití po vyjasnění pořadatele a dokladů. Zprávy a příspěvky nejsou odeslané ani publikované.
+Pilot dosud nemá potvrzeného zákazníka, termín ani cenu. Pořadatelem je podle potvrzení majitele Polarita s.r.o. Níže je postup a obsah k použití po dokončení kontroly dokladů a odborných podkladů. Zprávy a příspěvky nejsou odeslané ani publikované.
 
 ## Průchod prvním kurzem
 
@@ -21,23 +21,24 @@ pro firmy a živnostníky připravíme poučení podle § 4 nebo školení a př
 Pokud tuto službu potřebujete, napište prosím počet účastníků, požadované činnosti, místo a preferovaný termín. Nejprve společně upřesníme rozsah a vstupní podklady, potom cenu a organizaci.
 
 Václav Šercl
+Polarita s.r.o. · IČO 14180324
 792 779 534
 vaclav.sercl@polarita.cz
 
-Text odeslat pouze konkrétnímu schválenému adresátovi; neprovádět hromadné nevyžádané rozesílání. Identitu pořadatele doplnit po vyjasnění.
+Text odeslat pouze konkrétnímu schválenému adresátovi; neprovádět hromadné nevyžádané rozesílání.
 
 ## Návrh příspěvku na Facebook a LinkedIn
 
 Potřebujete poučení pracovníků nebo přezkoušení elektrotechniků?
 
-Na Polarita.cz najdete informace o § 4, § 6 a § 7 podle NV194/2022 Sb. Nabídka je zaměřena na nízké napětí v prostorech bez nebezpečí výbuchu. Obsah domlouváme podle činností, zařízení a místních rizik. U § 6 a § 7 probíhá zkouška před tříčlennou komisí; samotné školení nenahrazuje požadovanou kvalifikaci a praxi.
+Polarita s.r.o. nabízí poučení podle § 4 a školení s přezkoušením podle § 6 a § 7 NV194/2022 Sb. Nabídka je zaměřena na nízké napětí v prostorech bez nebezpečí výbuchu. Obsah domlouváme podle činností, zařízení a místních rizik. U § 6 a § 7 probíhá zkouška před tříčlennou komisí; samotné školení nenahrazuje požadovanou kvalifikaci a praxi.
 
 Do poptávky stačí napsat počet lidí, místo a stručný požadavek. Osobní doklady neposílejte do komentářů ani veřejných zpráv.
 
 https://www.polarita.cz/skoleni-a-zkousky-elektro/
 Václav Šercl ·792 779 534
 
-Publikovat až po vyjasnění pořadatele a schválení konkrétního příspěvku majitelem. Nepřidávat cenu, počet míst, termín či reference bez podkladu.
+Publikovat až po schválení konkrétního příspěvku majitelem. Nepřidávat cenu, počet míst, termín či reference bez podkladu.
 
 ## Návrh krátkého videa na YouTube
 

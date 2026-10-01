@@ -15,7 +15,9 @@ V této sadě jsou pouze prázdné formuláře a minimální profesní údaje. V
 
 ## Co brání uzavření přípravy
 
-Majitel potvrdil zajištění všech podmínek. Jeho další vysvětlení uvádí překlep v dokladu § 7 a platnost čtyři roky do 2030. Zákon však stanovuje tři roky od vydání. Je potřebná oprava či vysvětlení od vydavatele a ověření data vydání. Aktuálně načtený ARES/RŽP u Polarita s.r.o. neobsahuje obor školení; před uzavřením objednávky potvrdit skutečného pořadatele a jeho aktuální výpis. Výsledek API není důkazem, že novější zápis nemůže existovat.
+Majitel potvrdil zajištění podmínek, určil pořadatele Polarita a opravil platnost § 7 na tři roky do roku 2029. V podkladech používáme Polarita s.r.o., IČO 14180324, shodně s webem. Překlep v původním dokladu musí opravit vydavatel; při vydání 24. 6. 2026 vychází konec platnosti na 24. 6. 2029.
+
+Předchozí tvrzení o nutnosti právě oboru č. 72 bylo příliš kategorické. Zákon tento obor nejmenuje, pro externí zajišťování zkoušek však vyžaduje odpovídající předmět podnikání. Pokrytí současným zápisem Polarity zůstává nezávisle neuzavřené; starší výsledek API ani potvrzení majitele nezaměňovat za právní posouzení. Dále je nutné odborně dokončit skutečný test a podklady konkrétního kurzu.
 
 ## Zdroje
 
