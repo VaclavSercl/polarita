@@ -19,9 +19,21 @@ class Page(HTMLParser):
         self.option = False
         self.required = 0
         self.robots = []
+        self.descriptions = []
+        self.og = {}
+        self.h1 = 0
+        self.structured = []
+        self.in_json = False
+        self.sharing_elements = 0
 
     def handle_starttag(self, tag, attributes):
         data = dict(attributes)
+        if "sharedaddy" in data.get("class", "").split():
+            self.sharing_elements += 1
+        if tag == "h1":
+            self.h1 += 1
+        if tag == "script" and data.get("type") == "application/ld+json":
+            self.in_json = True
         if tag == "a":
             self.links.append(data.get("href", ""))
         if tag == "link" and data.get("rel") == "canonical":
@@ -32,14 +44,22 @@ class Page(HTMLParser):
             self.required += 1
         if tag == "meta" and data.get("name") == "robots":
             self.robots.append(data.get("content", ""))
+        if tag == "meta" and data.get("name") == "description":
+            self.descriptions.append(data.get("content", ""))
+        if tag == "meta" and data.get("property", "").startswith("og:"):
+            self.og.setdefault(data["property"], []).append(data.get("content", ""))
 
     def handle_endtag(self, tag):
         if tag == "option":
             self.option = False
+        if tag == "script":
+            self.in_json = False
 
     def handle_data(self, data):
         if self.option:
             self.options.append(data)
+        if self.in_json:
+            self.structured.append(json.loads(data))
 
 
 def fetch(url):
@@ -77,6 +97,20 @@ def main():
             assert "Školení a přezkoušení pro firmy a živnostníky." in text
             assert "před tříčlennou komisí" in text
             assert "/#poptavka" in page.links
+            assert "Revizní technik elektro s osobním osvědčením v rozsahu E2A." in text
+            assert "Elektromontér fotovoltaických systémů" in text
+            assert "Montér dobíjecích stanic pro elektromobily" in text
+            assert page.h1 == 1, (url, page.h1)
+            assert len(page.descriptions) == 1 and "E2A" in page.descriptions[0]
+            assert page.og.get("og:description") == page.descriptions
+            assert page.og.get("og:title") == ["Školení a zkoušky elektro § 4, 6 a 7 | Polarita"]
+            assert page.og.get("og:url") == [url]
+            assert "#main-content" in page.links
+            assert "tři roky ode dne vydání" in text
+            assert page.sharing_elements == 0, "Unexpected sharing widget"
+            graph = [item for data in page.structured for item in data.get("@graph", [])]
+            assert {"Organization", "WebSite", "WebPage", "BreadcrumbList"}.issubset({x.get("@type") for x in graph})
+            assert not any(x.get("@type") == "Service" for x in graph), "Provider not independently verified"
         assert "připravované služby" not in text
         assert "Připravovaná nabídka" not in text
         for link in page.links:

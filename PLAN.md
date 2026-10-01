@@ -1,5 +1,21 @@
 # Čitelnější logo Polarita.eu — 2026-09-29
 
+## Dokončení školení body 1 až 4 dne 1. 10. 2026
+
+Goal: ověřit podmínky nabídky, připravit provozní dokumentaci, bezpečné technické úpravy webu a pilot/komunikaci. Non-goals: jiné sekce, instalace harnessu/závislostí/pluginů, vzdálené Git zápisy, odesílání emailů/příspěvků, smyšlené termíny/ceny, skutečný kurz bez zákazníka.
+
+Baseline: 16b97cd085fafa0bafbeeaa8c34de55ad91fbe15; čistý index/worktree, Windows PowerShell. Repozitář nemá AGENTS.md ani SynthBit. Pravidla vlastníka dodaná v chatu platí jako provozní omezení, nikoli příkaz instalovat harness v tomto webovém úkolu. Oponent AGY je výslovně vyžádán a má read-only úlohu. Rozsah: PLAN.md, docs/skoleni/, report, případně úzká úprava nové stránky/SEO po aktuálním čtení editoru. Osobní skeny a secrets nepatří do Gitu.
+
+Discovery: tvrzení o čtyřleté platnosti §7 do2030 odporuje zákonné tříleté platnosti. Neopravovat originál ani potvrdit2030; připravit žádost vydavateli. Pořadatel a aktuální předmět podnikání čekají na doložení. Starší výpis OSVČ nedokládá aktuální stav firmy. Nabídka byla publikována na potvrzení majitele, rozdíl proti ověření zachovat.
+
+Acceptance: vyplnitelné podklady, oddělený §4 a §6/7, skutečná účast komise, žádné fiktivní údaje, právní zdroje/omezení; veřejné komerční URL, metadata/CTA/mobile podle dostupnosti; AGY zapracován. Commands: python web/check_training_update.py; git diff --check; git diff --cached --check. Registr/web read-only. Odeslání emailu/formuláře/příspěvku vyžaduje výslovnou autorizaci; připravit konkrétní text/test.
+
+Recovery: aktuální obsah před změnou do ignored .artifacts; nepřepsat souběžné změny. Nejvýše tři doložené opravy. Nedostupný admin/SEO mechanismus uvést jako blokaci. Lokální commit jen vlastněných souborů po kontrolách a AGY; bez push/PR. Podklady k odbornému schválení nejsou uskutečněný kurz.
+
+Discovery update: existující vlastní plugin Polarita Commercial Pages1.3.6 řídí metadata a šablonu explicitním allowlistem10stránek, nové1462 chybí. Rank Math čeká na globální průvodce, nepoužít jej v úzkém rozsahu. Bez změny funkcí přidat pouze1462 do existujícího seznamu, Service ponechat prázdné do ověření pořadatele. Dosavadní template.php zkontrolován; odstraňuje skrytý H1 a poskytuje skip link i nastavení cookies. Přesný plugin9030znaků zálohován, sha256a22c8af46fa2eb544f63e6c8ad8f5c9aec589a7cd3bb0b948352232df6599d54 shodný s aktuálním editorem. Neměnit jiné ID ani globální funkce. Patch popsat v docs/skoleni; před uložením opakovat shodu a vyžádat read-only oponenturu. PHP CLI zatím chybí; použít pouze při dostupné nativní kontrole WordPressu a ověřit veřejný výsledek. Nejde o kompletní platformový gate.
+
+Outcome: přidán pouze entry1462 v aktuálním pluginu po záloze/AGY/shodě editoru, WordPress potvrdil uložení. Metadata/OG a jediný H1 veřejně ověřeny, logo/cookies/320px a390px/FAQ v prohlížeči. Úzké doplnění doložených profesních údajů na1462 publikováno po přesné shodě zdroje se zálohou. Žádné jiné stránkové obsahy změněny. docs/skoleni pracovní podklady; AGY nezávisle ověřil právní zdroje a veřejný checkexit0. Finální odborný test, aktuální pořadatel, oprava dokladu, pilot a doručení emailu zůstávají otevřené; čeká otázka na konkrétní autorizaci jednoho testu. Žádný push/PR, harness neinstalován. Celkový stav INCOMPLETE, webový zásah ověřen v úzkém rozsahu.
+
 ## Potvrzená dostupnost školení — pokračování 2026-09-30
 
 Výsledek pokračování: na obou stránkách publikována dostupná nabídka; veřejný check exit 0. Dodaných šest PDF přečteno vizuálně (11 stran), mimo Git a bez veřejného uploadu. Nové zjištění: doklad § 7 má rozpor data platnosti, živnostenský výpis je pro OSVČ z roku 2021 bez oboru školení. Majitel požádán o vysvětlení; do veřejného obsahu nepřenášet tvrzení o nezávisle ověřené platnosti § 7 ani čísla/oprávnění pořadatele. Rozsah nabídky E2A osobní osvědčení RT dokládá, platnost do 14. 9. 2031. Neřešit opravu originálních PDF ani přepisovat osobní údaje. Výsledný report obsahuje omezení a rozlišení potvrzení majitele od doložených faktů.
