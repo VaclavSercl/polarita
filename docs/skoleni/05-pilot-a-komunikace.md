@@ -44,6 +44,8 @@ Publikovat až po schválení konkrétního příspěvku majitelem. Nepřidávat
 
 Téma: rozdíl mezi poučením § 4, elektrotechnikem § 6 a vedoucím elektrotechnikem § 7. Václav stručně vysvětlí konkrétní pracoviště a rizika, kontrolu podkladů, komisi a výsledný doklad. Ukáže odkaz na stránku a kontakt. Nezveřejňovat osobní doklady, záběry účastníků bez souhlasu ani nebezpečný praktický návod. Nejprve nahrát a zkontrolovat odbornou správnost; tento dokument není vyrobené video.
 
-## Doručení testovací poptávky
+## Historický scénář testovací poptávky
 
-Připravený scénář, dosud neodeslaný: služba školení; obecPraha; jménoTEST Polarita; popis „TEST formuláře – nejedná se o skutečnou objednávku. Kontrola doručení poptávky školení.“ Email a termín doplní majitel podle zvoleného testovacího kontaktu. Po autorizovaném odeslání ověřit potvrzení na webu, záznam ve WordPress Forms i příjem ve schránce, včetně spamu. Samotný úspěšný HTTP stav není důkaz doručení.
+Původní návrh: služba školení; obec Praha; jméno TEST Polarita; popis „TEST formuláře – nejedná se o skutečnou objednávku. Kontrola doručení poptávky školení.“ Tento návrh sám o sobě není důkazem odeslání.
+
+Pozdější výslovně schválený test společného webového formuláře byl 1. 10. 2026 doručen a majitel jej potvrdil. Webové potvrzení, odpovídající e-mail a GA4 generate_lead uvádí [report publikace](../web/PUBLICATION-2026-10-01.md). Nejde o skutečnou objednávku školení ani samostatný test každé volby formuláře. V pokračování 2. 10. se další test neposílá.

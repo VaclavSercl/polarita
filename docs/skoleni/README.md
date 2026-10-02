@@ -10,6 +10,7 @@ Pracovní sada pro Václava Šercla, externí školení firem a živnostníků v
 4. [Záznamy a evidence](04-zaznamy.md) určují vyplnitelné pracovní listy a mapují zákonné vzory. Výsledný doklad a protokol podle § 6/7 musí vycházet z příloh 2 a 3 nařízení, nikoli jen z tohoto checklistu.
 5. [Pilot a komunikace](05-pilot-a-komunikace.md) obsahují průchod prvním kurzem, návrhy neodeslaných zpráv a plán ověření poptávky.
 6. [Výsledky kontroly](06-report.md) rozlišují provedené kontroly a zbývající kroky.
+7. [Vzor první poptávky](08-poptavka.md) lze poslat zákazníkovi pro stručné zadání bez osobních dokladů účastníků.
 
 V této sadě jsou pouze prázdné formuláře a minimální profesní údaje. Vyplněné doklady účastníků, identifikátory, podpisy, zdravotní podklady a komise patří do neveřejného úložiště pořadatele s řízeným přístupem, nikoli do Git repozitáře nebo médií WordPressu.
 
