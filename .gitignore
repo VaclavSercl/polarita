@@ -12,3 +12,10 @@ __pycache__/
 *.tmp
 email_state.json
 csn_state.txt
+
+# Local web tooling and private deployment state
+.venv/
+.artifacts/
+*.cookies
+wp_nonce.txt
+wp_cookies.txt

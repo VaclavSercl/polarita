@@ -1,0 +1,30 @@
+[
+  {
+    "id": 539,
+    "slug": "polarita",
+    "url": "https://www.polarita.cz/",
+    "title": "Polarita",
+    "file": "polarita.html"
+  },
+  {
+    "id": 18,
+    "slug": "kontakt",
+    "url": "https://www.polarita.cz/kontakt/",
+    "title": "Kontakt",
+    "file": "kontakt.html"
+  },
+  {
+    "id": 1385,
+    "slug": "elektroinstalace",
+    "url": "https://www.polarita.cz/elektroinstalace/",
+    "title": "Elektroinstalace",
+    "file": "elektroinstalace.html"
+  },
+  {
+    "id": 1386,
+    "slug": "wallboxy",
+    "url": "https://www.polarita.cz/wallboxy/",
+    "title": "Wallboxy a nabíjení",
+    "file": "wallboxy.html"
+  }
+]

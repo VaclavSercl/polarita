@@ -1,0 +1,40 @@
+<!-- Polarita: velikost loga v hlavicce, 2026-09-29 -->
+<style id="polarita-header-logo">
+#header .site-name a[data-testid="linkWebsiteLogo"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  line-height: 0;
+}
+#header .site-name a[data-testid="linkWebsiteLogo"] img {
+  display: block;
+  flex: 0 0 auto;
+  width: 120px;
+  height: 120px;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+}
+@media (min-width: 768px) {
+  #header .header-top {
+    height: auto;
+    min-height: 144px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (max-width: 767px) {
+  #header .site-name a[data-testid="linkWebsiteLogo"] {
+    width: 72px;
+    height: 50px;
+    overflow: hidden;
+  }
+  #header .site-name a[data-testid="linkWebsiteLogo"] img {
+    width: 72px;
+    height: 72px;
+  }
+}
+</style>
+<!-- /Polarita: velikost loga v hlavicce -->

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-01",
+  "plugin_file": "polarita-commercial/polarita-commercial.php",
+  "before_sha256": "a22c8af46fa2eb544f63e6c8ad8f5c9aec589a7cd3bb0b948352232df6599d54",
+  "after_sha256": "74a56ca0f05630d5564f6302c2b24252d4ea36b5ce688059696893f2ac0ed6ec",
+  "hash_encoding": "UTF-8 with LF as read from the WordPress editor",
+  "action": "Insert one array entry into polarita_commercial_pages before its closing parenthesis; no other changes",
+  "page_id": 1462,
+  "entry": [
+    "Školení a zkoušky elektro § 4, 6 a 7 | Polarita",
+    "Poučení podle § 4 a školení s přezkoušením podle § 6 a § 7 pro firmy a živnostníky. Zaměření E2A, celé Česko. Domluvte rozsah a termín.",
+    "Školení a zkoušky elektro",
+    ""
+  ],
+  "service_schema": "Not added pending independent provider verification",
+  "rollback": "Remove only the new 1462 entry after checking current content; exact full backup remains local and ignored. Do not overwrite intervening edits."
+}
